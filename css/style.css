@@ -1,6 +1,32 @@
 td, th {
 	font-family: Arial;
 	font-size: 15px;
+	padding: 10px; :10px; :10px; :10px;
 	border: 1px solid;
+	text-align: center;	
+	clear: both;
   }
+  
+table{
+	width: 90%;
+	margin: 0%; :5%; :0%; :5%:
+
+}
+  
+h1~h6{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+web-background{
+	background: url(images/controleroom.jpg) no-repeat;
+}
+
+.unitsquare{
+	position: relative;
+	font-size: 3px;
+	top: 8px;
+} 
+	
   
