@@ -1,3 +1,14 @@
+#web-background{
+	background-image: url("images/controleroom.jpg");
+	position:fixed;
+    top: 0;
+    left: 0;
+	width:100%;
+    height:100%;
+	z-index:-10;
+}
+
+
 td, th {
 	font-family: Arial;
 	font-size: 15px;
@@ -6,27 +17,48 @@ td, th {
 	text-align: center;	
 	clear: both;
   }
+.planets-name{
+	font-family: Arial;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: Regular;
+	text-align: center;	
+	clear: both;
+}
   
 table{
 	width: 90%;
-	margin: 0%; :5%; :0%; :5%:
-
+	position: absolute;
+	left: 5%;
 }
   
-h1~h6{
+h1{
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 18px;
-}
-
-web-background{
-	background: url(images/controleroom.jpg) no-repeat;
+	font-size: 33px;
+	margin: top: 10px; bottom: 10px;
+	text-align: center;	
 }
 
 .unitsquare{
+	color: red;
+	font-size: 10px;
 	position: relative;
-	font-size: 3px;
-	top: 8px;
+	bottom: 8px;
 } 
+
+.td-background-color{
+	background-color: #F5EDA5;
+}
+
+{
+	box-sizing: content-box;
+	position: relative;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+	border:3px solid;
+}
+	
 	
   
