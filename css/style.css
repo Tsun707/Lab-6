@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/controleroom.jpg");
+	background-image: url("controleroom.jpg");
 	position:fixed;
     top: 0;
     left: 0;
@@ -52,6 +52,10 @@ h1{
 
 .td-background-color{
 	background-color: #F5EDA5;
+}
+
+.td-background-color-2{
+	background-color: white;
 }
 
 table{
