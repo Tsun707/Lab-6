@@ -1,4 +1,4 @@
-#web-background{
+body{
 	background-image: url("images/controleroom.jpg");
 	position:fixed;
     top: 0;
@@ -22,7 +22,11 @@ td, th {
 	font-size: 15px;
 	font-style: italic;
 	font-weight: Regular;
-	text-align: center;	
+	color:#e6e8e6;
+	text-align: center;
+	border: 1px solid;	
+	border-radius: 15px;
+	background-color:#808080;
 	clear: both;
 }
   
@@ -59,6 +63,12 @@ table{
 	right: 5%;
 	border:3px solid;
 }
+
+.planets-image-rcorners{
+	border-radius: 15px;	
+}
+
+
 	
 	
   
